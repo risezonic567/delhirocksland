@@ -15,7 +15,7 @@ import ConsultationCTA from './components/ConsultationCTA';
 import FAQSection from './components/FAQSection';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
-// import QuoteFormModal from './components/QuoteFormModal';
+import QuoteFormModal from './components/QuoteFormModal';
 import InteractiveStoneShowcase from './components/AboutSection';
 import FloatingWhatsApp from './components/FloatingWhatsapp';
 // import FloatingCTAs from './components/';
@@ -48,7 +48,7 @@ export default function App() {
       <Footer onOpenQuote={handleOpenQuote} />
 
       {/* Conversion Overlays */}
-      {/* <QuoteFormModal isOpen={isQuoteOpen} onClose={handleCloseQuote} /> */}
+      <QuoteFormModal isOpen={isQuoteOpen} onClose={handleCloseQuote} />
       {/* <FloatingCTAs onOpenQuote={handleOpenQuote} /> */}
       <FloatingWhatsApp/>
     </div>

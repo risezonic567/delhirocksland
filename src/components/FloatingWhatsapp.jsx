@@ -1,5 +1,5 @@
 import React from "react";
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function FloatingWhatsApp() {
   const phoneNumber = "9289207505";
@@ -41,7 +41,7 @@ export default function FloatingWhatsApp() {
         hover:shadow-[0_12px_35px_rgba(37,211,102,0.40)]
       "
     >
-      <MessageCircle
+      <FaWhatsapp
         size={27}
         strokeWidth={2}
         fill="white"
