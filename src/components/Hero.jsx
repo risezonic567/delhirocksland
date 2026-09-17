@@ -37,12 +37,12 @@ export default function Hero({ onOpenQuote }) {
             Explore Collection
           </a>
 
-          <button
-            onClick={onOpenQuote}
+          <a
+            href="tel:+919289207505"
             className="px-8 py-4 border border-[#E5E1D8]/30 hover:border-[#E5E1D8] text-[#E5E1D8] text-xs font-semibold uppercase tracking-widest rounded-sm backdrop-blur-sm transition-all text-center"
           >
             Get Free Quote
-          </button>
+          </a>
         </div>
 
         <div className="border-t border-[#2A2E35] pt-6 flex flex-wrap gap-6 text-xs uppercase tracking-wider text-white">
