@@ -63,7 +63,7 @@ export default function Navbar({ onOpenQuote }) {
           </a>
           <button
             onClick={onOpenQuote}
-            className="px-5 py-2.5 bg-[#C5A059] hover:bg-[#B38F48] text-[#0F1115] text-xs font-semibold uppercase tracking-wider transition-all rounded-sm shadow-md"
+            className="px-5 py-2.5 cursor-pointer bg-[#C5A059] hover:bg-[#B38F48] text-[#0F1115] text-xs font-semibold uppercase tracking-wider transition-all rounded-sm shadow-md"
           >
             Get a Quote
           </button>

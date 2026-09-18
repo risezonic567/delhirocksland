@@ -42,8 +42,8 @@ export default function Footer({ onOpenQuote }) {
               </h2>
             </div>
 
-            <a
-              href="tel:+919289207505"
+            <button
+              onClick={onOpenQuote}
               className="
                 group
                 inline-flex
@@ -63,6 +63,7 @@ export default function Footer({ onOpenQuote }) {
                 duration-300
                 hover:bg-[#B99A63]
                 hover:text-white
+                cursor-pointer
                 shrink-0
               "
             >
@@ -72,7 +73,7 @@ export default function Footer({ onOpenQuote }) {
                 strokeWidth={1.7}
                 className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
               />
-            </a>
+            </button>
 
           </div>
         </div>
