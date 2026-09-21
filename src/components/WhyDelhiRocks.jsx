@@ -54,12 +54,11 @@ export default function WhyDelhiRocks() {
       id="why-us"
       className="relative py-24 sm:py-32 lg:py-40 bg-[#F8F6F1]/50 overflow-hidden"
     >
-      {/* Decorative background element */}
+
       <div className="absolute top-0 right-0 w-[420px] h-[420px] rounded-full bg-[#E9E2D5]/40 blur-3xl pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
 
-        {/* ================= HEADER ================= */}
         <div className="grid lg:grid-cols-[1fr_0.75fr] gap-10 lg:gap-20 items-end mb-16 sm:mb-20">
 
           <div>
@@ -85,7 +84,7 @@ export default function WhyDelhiRocks() {
 
           <div className="lg:pb-2">
             <p className="text-sm sm:text-base text-[#77736C] font-light leading-7 max-w-lg">
-              Natural stone is more than a surface. It influences the
+              Natural stone is more than a surface, It influences the
               character, longevity, and atmosphere of an entire space.
               DelhiRocks brings thoughtful selection and practical expertise
               to every project.
