@@ -167,12 +167,13 @@ export default function Applications({ onOpenQuote }) {
                 {/* CTA */}
                 <div className="mt-6 pt-5 border-t border-[#E8E2D8]">
 
-                  <a
-                    href="tel:+919289207505"
+                  <button
+                   onClick={onOpenQuote}
                     className="
                       group/btn
                       inline-flex
                       items-center
+                      cursor-pointer
                       gap-2
                       text-[10px]
                       font-semibold
@@ -194,7 +195,7 @@ export default function Applications({ onOpenQuote }) {
                         group-hover/btn:-translate-y-1
                       "
                     />
-                  </a>
+                  </button>
 
                 </div>
 

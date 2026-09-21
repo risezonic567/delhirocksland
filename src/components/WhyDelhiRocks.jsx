@@ -38,8 +38,8 @@ export default function WhyDelhiRocks() {
     {
       icon: MapPin,
       number: "05",
-      title: "Delhi NCR Focus",
-      desc: "Dedicated logistical support for projects across Delhi, Gurugram, Noida, Ghaziabad, and Faridabad.",
+      title: "Gurugram Focus",
+      desc: "Dedicated logistical support for projects across Gurugram and surrounding areas.",
     },
     {
       icon: Headphones,
@@ -220,7 +220,7 @@ export default function WhyDelhiRocks() {
           </div>
 
           <a
-          href="tel:+919289207505"
+            href="tel:+919289207505"
             className="
               group
               inline-flex
