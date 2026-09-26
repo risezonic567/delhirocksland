@@ -7,7 +7,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
-export default function Testimonials() {
+export default function Testimonials({onOpenQuote}) {
   const [current, setCurrent] = useState(0);
 
   const prev = () =>
@@ -172,8 +172,8 @@ export default function Testimonials() {
             </span>
           </div>
 
-          <a
-           href="tel:+919289207505"
+          <button
+           onClick={onOpenQuote}
             className="
               group
               inline-flex
@@ -200,7 +200,7 @@ export default function Testimonials() {
                 group-hover:-translate-y-1
               "
             />
-          </a>
+          </button>
 
         </div>
 

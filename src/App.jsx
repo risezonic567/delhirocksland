@@ -40,9 +40,9 @@ export default function App() {
         {/* <Process onOpenQuote={handleOpenQuote} /> */}
         {/* <Projects onOpenQuote={handleOpenQuote} /> */}
         {/* <MaterialComparison onOpenQuote={handleOpenQuote} /> */}
-        <Testimonials />
+        <Testimonials  onOpenQuote={handleOpenQuote} />
         {/* <ConsultationCTA onOpenQuote={handleOpenQuote} /> */}
-        <FAQSection />
+        <FAQSection onOpenQuote={handleOpenQuote}/>
         {/* <FinalCTA onOpenQuote={handleOpenQuote} /> */}
       </main>
       <Footer onOpenQuote={handleOpenQuote} />

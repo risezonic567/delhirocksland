@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FAQS } from "../data/stoneData";
 import { Plus, Minus, ArrowUpRight } from "lucide-react";
 
-export default function FAQSection() {
+export default function FAQSection({onOpenQuote}) {
   const [openIdx, setOpenIdx] = useState(0);
 
   const toggle = (idx) => {
@@ -189,8 +189,8 @@ export default function FAQSection() {
             </p>
           </div>
 
-          <a
-          href="tel:+919289207505"
+          <button
+          onClick={onOpenQuote}
             className="
               group
               inline-flex
@@ -199,6 +199,7 @@ export default function FAQSection() {
               gap-3
               px-6
               py-3.5
+              cursor-pointer
               rounded-full
               bg-[#F1EEE7]
               text-[#292722]
@@ -225,7 +226,7 @@ export default function FAQSection() {
                 group-hover:-translate-y-1
               "
             />
-          </a>
+          </button>
 
         </div>
 
