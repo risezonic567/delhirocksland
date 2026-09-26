@@ -9,7 +9,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
-export default function WhyDelhiRocks() {
+export default function WhyDelhiRocks({onOpenQuote}) {
   const usps = [
     {
       icon: Layers,
@@ -99,7 +99,6 @@ export default function WhyDelhiRocks() {
           </div>
         </div>
 
-        {/* ================= USP GRID ================= */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-t border-l border-[#DED8CC]">
           {usps.map((usp, index) => {
             const Icon = usp.icon;
@@ -218,14 +217,15 @@ export default function WhyDelhiRocks() {
             </div>
           </div>
 
-          <a
-            href="tel:+919289207505"
+          <button
+            onClick={onOpenQuote}
             className="
               group
               inline-flex
               items-center
               justify-center
               gap-3
+              cursor-pointer
               px-7
               py-3.5
               rounded-full
@@ -254,7 +254,7 @@ export default function WhyDelhiRocks() {
                 group-hover:-translate-y-1
               "
             />
-          </a>
+          </button>
         </div>
 
       </div>

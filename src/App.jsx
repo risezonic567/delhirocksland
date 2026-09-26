@@ -36,7 +36,7 @@ export default function App() {
         <Collections onOpenQuote={handleOpenQuote} />
         <FeaturedStones onOpenQuote={handleOpenQuote} />
         <Applications onOpenQuote={handleOpenQuote} />
-        <WhyDelhiRocks />
+        <WhyDelhiRocks onOpenQuote={handleOpenQuote} />
         {/* <Process onOpenQuote={handleOpenQuote} /> */}
         {/* <Projects onOpenQuote={handleOpenQuote} /> */}
         {/* <MaterialComparison onOpenQuote={handleOpenQuote} /> */}

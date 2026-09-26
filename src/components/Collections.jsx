@@ -241,13 +241,14 @@ export default function Collections({ onOpenQuote }) {
             </span>
           </p>
 
-          <a
-            href="tel:+919289207505"
+          <button
+            onClick={onOpenQuote}
             className="
               group
               inline-flex
               items-center
               gap-2
+              cursor-pointer
               text-[13px]
               font-semibold
               uppercase
@@ -266,7 +267,7 @@ export default function Collections({ onOpenQuote }) {
               size={14}
               className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
             />
-          </a>
+          </button>
 
         </div>
 

@@ -251,14 +251,15 @@ export default function InteractiveStoneShowcase({ onOpenQuote }) {
         </div>
 
 
-        <a
-          href='tel:+919289207505'
+        <button
+          onClick={onOpenQuote}
           className="
             group
             shrink-0
             inline-flex items-center justify-center gap-3
             px-6 py-3.5
             rounded-full
+            cursor-pointer
             bg-[#24231F]
             text-white
             text-[13px]
@@ -277,7 +278,7 @@ export default function InteractiveStoneShowcase({ onOpenQuote }) {
             size={14}
             className="transition-transform duration-300 group-hover:translate-x-1"
           />
-        </a>
+        </button>
 
       </div>
 

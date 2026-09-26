@@ -254,13 +254,14 @@ export default function FeaturedStones({ onOpenQuote }) {
             </p>
           </div>
 
-          <a
-          href="tel:+919289207505"
+          <button
+          onClick={onOpenQuote}
             className="
               inline-flex
               items-center
               gap-2
               text-[13px]
+              cursor-pointer
               uppercase
               tracking-[0.16em]
               font-semibold
@@ -274,7 +275,7 @@ export default function FeaturedStones({ onOpenQuote }) {
           >
             Speak With Our Stone Expert
             <ArrowUpRight size={14} />
-          </a>
+          </button>
 
         </div>
 
